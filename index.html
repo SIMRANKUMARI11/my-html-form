@@ -1,0 +1,65 @@
+<! DOCTYPE HTML>
+<html>
+  <head>
+    <title>application form</title>
+  </head>
+  <body>
+    <h1>This is a application form</h1>
+    <form action=backend.php>
+    <label for="name">Name:</label> 
+    <div>
+      <input type="text" name="myname" id="name">
+    </div>
+    <br>
+    
+    <label for="roll">Roll:</label>
+    <div>
+      <input type="text" name="myroll" id="roll">
+    </div>
+    <br>
+    
+    <label for="email">Email:</label>
+    <div>
+      <input type="email" name="myemail" id="email">
+    </div>
+    <br>
+    
+    <div>
+      Date:<input type="date" name="mydate">
+    </div>
+    <br>
+
+    <label for="eligible">Are you eligible?:</label>
+    <div>
+      <input type="checkbox" name="myeligibility" id="eligible">
+    </div>
+    <br>
+    
+    <div>
+      Gender: Male<input type="radio" name="mygender">
+      Female<input type="radio" name="mygender"checked>
+    </div>
+    <br>
+    
+    <div>
+      Write about yourself:<br><textarea name="abtyourself" rows="10" cols="10"></textarea>
+    </div>
+    <div>
+    <label for="subject">Optional Subject</label> 
+    <div>
+      <select name="mysub" id="subject">
+        <option value="math">MATH</option>
+        <option value="bio">BIO</option>
+        <option value="computer">COMPUTER</option>
+      </select>
+    </div>
+    <div>
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+    </div>
+    <br>
+    
+    
+    </form>
+  </body>
+</html>
